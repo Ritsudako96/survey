@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IR-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Survey</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="survey.css">
+</head>
+<body>
+	<form>
+	<h1>Survey</h1>
+	<div class="normal"><label for="name">Name:</label>
+	<input type="text" id="name" name="name" placeholder="Enter your name..." required></div>
+	<div class="normal"><label for="grade">Grade: </label><select name="grade" id="grade" required="required">
+	<option value="">Select your grade...</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+	<option value="11">11</option>
+	<option value="12">12</option>
+	<option value="staff">Staff</option>
+	</select></div>
+	<div class="normal"><label for="message">Message:</label>
+	<textarea name="message" id="message" placeholder="Message"></textarea></div>
+	<input type="Submit" id="submit">
+	</form>
+		<h1 id="msg"></h1>
+</body>
+<script src="survey.js"></script>
+</html>
+	

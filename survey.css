@@ -1,0 +1,23 @@
+body {
+	text-align: center;
+	font-family: 'Mulish', monospace;
+}
+div.normal {
+	padding: 5px;
+	width: 50%;
+	margin: auto;
+}
+input#name, textarea, select, option {
+	width: 50%;
+	font-family: 'Mulish', monospace;
+}
+select {
+	padding: 5px;
+	padding-left: 2px;
+}
+input {
+	font-family: 'Mulish', monospace;
+}
+div.result1 {
+	padding: 50px;
+}

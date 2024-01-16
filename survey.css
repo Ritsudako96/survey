@@ -7,6 +7,11 @@ div.normal {
 	width: 50%;
 	margin: auto;
 }
+div.normal {
+	padding: 5px;
+	width: 80%;
+	margin: auto;
+}
 input#name, textarea, select, option {
 	width: 50%;
 	font-family: 'Mulish', monospace;

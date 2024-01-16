@@ -5,7 +5,7 @@ form.addEventListener('submit', (e)=>{
 	e.preventDefault();
 	document.querySelector("#submit").value="Submitting...";
 	let data = new FormData(form);
-	fetch('https://script.google.com/macros/s/AKfycbxSmFVOZvHpcNIginVgc6fmum4q2i8fuwZbQPdn0SftfGSPQ3aGEwK5QLAFwfrLnvEt/exec', {
+	fetch('https://script.google.com/macros/s/AKfycbyfWhEuYPJOQ1t10GWeTHTnq9G8NobsVXzGuJIKyVtoVXyq5nI6qAS454JJgnqe2-MZ/exec', {
 		method:"POST",
 		body:data
 	})
